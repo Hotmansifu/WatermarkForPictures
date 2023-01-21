@@ -1,28 +1,6 @@
-# WatermarkForPictures
+This is a Python script that can be used to add a custom watermark to an image. The output is saved as a new image with a custom name.  The script also allows you to specify the position of the watermark, and to make it partially transparent.
+You can adjust the size of the watermark, the position of the watermark and the level of transparency as per your needs. This script can be very useful if you want to add a watermark to multiple images at once. 
+You can also use it as a function, and you can import it in your code and call it with different images and watermarks.  You can use this script to protect your images by adding a watermark, it can also be used to add a logo or a signature to your images.
+The script is very easy to use, you just need to specify the path of the input image and the watermark, and then you can run the script. You can also adjust the size of the watermark, the position of the watermark and the level of transparency as per your needs. 
 
-First, make sure you have the PIL library installed in your machine by running pip install pillow.
-
-Download or clone the repository to your local machine, the script is located in the main.py file.
-
-Open the main.py file, you can use any text editor.
-
-In the main.py file, you will find the following line image = Image.open("image.jpg"), replace the "image.jpg" with the path of the image you want to add the watermark to.
-
-In the main.py file, you will find the following line watermark = Image.open("watermark.png"), replace the "watermark.png" with the path of the watermark you want to add to the image.
-
-You can adjust the size of the watermark by changing the value of the watermark.resize() method, the script resizes the watermark to be 1/4 the size of the original image, you can adjust the value as per your needs.
-
-You can adjust the position of the watermark by changing the value of the position variable, the script sets the position to be in the top-left corner, you can adjust the values of x and y as per your needs.
-
-You can adjust the transparency of the watermark by changing the value of the watermark_pixel[i, j] method, the script sets the transparency to be 50%, you can adjust the value as per your needs.
-
-Once you've made the necessary changes, save the main.py file.
-
-Open a command prompt or terminal window and navigate to the directory where the script is located.
-
-Run the script by typing python main.py and press enter.
-
-The script will add the watermark to the image and save the output as "output.jpg" in the same directory where the script is located.
-
-You can change the output image name by changing the value of the output.save() method.
-
+Please note that the script is using the PIL library, so you need to have it installed in your machine, you can install it by running pip install pillow You can also find the code in the main.py file, you can download the script and run it on your local machine, or you can also fork the repository and make changes as per your needs.
