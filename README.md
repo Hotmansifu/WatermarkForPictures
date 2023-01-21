@@ -23,3 +23,4 @@ Run the script by typing python watermarkforpictures.py and press enter.
 The script will add the watermark to the image and save the output as "output.png" in the same directory where the script is located.
 
 You can change the output image name by changing the value of the output.save() method.
+................
