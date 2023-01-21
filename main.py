@@ -2,14 +2,14 @@ from PIL import Image
 
 # Open the image
 try:
-    image = Image.open("image1.png")
+    image = Image.open("image.png")
 except FileNotFoundError:
     print("image.png not found, please provide the correct path")
     exit()
 
 # Open the watermark image
 try:
-    watermark = Image.open("watermark23.png")
+    watermark = Image.open("watermark.png")
 except FileNotFoundError:
     print("watermark.png not found, please provide the correct path")
     exit()
