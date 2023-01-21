@@ -4,7 +4,7 @@ Download or clone the repository to your local machine, the script is located in
 
 Open the watermarkforpictures.py file, you can use any text editor.
 
-In the watermarkforpictures.py file, you will find the following line image = Image.open("image.jpg"), replace the "image.jpg" with the path of the image you want to add the watermark to.
+In the watermarkforpictures.py file, you will find the following line image = Image.open("image.png"), replace the "image.png" with the path of the image you want to add the watermark to.
 
 In the watermarkforpictures.py file, you will find the following line watermark = Image.open("watermark.png"), replace the "watermark.png" with the path of the watermark you want to add to the image.
 
@@ -20,6 +20,6 @@ Open a command prompt or terminal window and navigate to the directory where the
 
 Run the script by typing python watermarkforpictures.py and press enter.
 
-The script will add the watermark to the image and save the output as "output.jpg" in the same directory where the script is located.
+The script will add the watermark to the image and save the output as "output.png" in the same directory where the script is located.
 
 You can change the output image name by changing the value of the output.save() method.
