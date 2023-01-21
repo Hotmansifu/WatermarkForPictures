@@ -45,5 +45,4 @@ watermarked.paste(watermark, position, watermark)
 # Create a composite image using the alpha layer
 output = Image.composite(watermarked, image, watermarked)
 
-# Save the output
 output.save("output.png")
