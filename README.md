@@ -1,8 +1,8 @@
 first, make sure you have the PIL library installed in your machine by running pip install pillow.
 
-Download or clone the repository to your local machine, the script is located in the watermarkforpictures.py file.
+Download or clone the repository to your local machine, the script is located in the main.py file.
 
-Open the watermarkforpictures.py file, you can use any text editor.
+Open the main.py file, you can use any text editor.
 
 In the watermarkforpictures.py file, you will find the following line image = Image.open("image.png"), replace the "image.png" with the path of the image you want to add the watermark to.
 
@@ -14,13 +14,14 @@ You can adjust the position of the watermark by changing the value of the positi
 
 You can adjust the transparency of the watermark by changing the value of the watermark_pixel[i, j] method, the script sets the transparency to be 50%, you can adjust the value as per your needs.
 
-Once you've made the necessary changes, save the watermarkforpictures.py file.
+Once you've made the necessary changes, save the main.py file.
 
 Open a command prompt or terminal window and navigate to the directory where the script is located.
 
-Run the script by typing python watermarkforpictures.py and press enter.
+Run the script by typing python main.py and press enter.
 
 The script will add the watermark to the image and save the output as "output.png" in the same directory where the script is located.
 
 You can change the output image name by changing the value of the output.save() method.
 ................
+Keep in mind  in "watermarked.paste(watermark, (int(image_width*w),int(image.height*h)), watermark)" w and h values should be chosen individually depending on the size of a template 
