@@ -1,4 +1,4 @@
-irst, make sure you have the PIL library installed in your machine by running pip install pillow.
+first, make sure you have the PIL library installed in your machine by running pip install pillow.
 
 Download or clone the repository to your local machine, the script is located in the main.py file.
 
